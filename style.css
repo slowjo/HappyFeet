@@ -253,7 +253,7 @@ a {
   display: grid;
   align-items: flex-start;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .second-left img,
@@ -279,8 +279,9 @@ a {
   background: #008087;
   border-radius: 50px;
   padding: 10px 25px;
-  width: 350px;
-  margin: auto;
+  /* width: 350px; */
+  width: fit-content;
+  /* margin: auto; */
 }
 
 .second-right-address {
