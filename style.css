@@ -298,6 +298,24 @@ a {
 /* Mobile */
 
 @media (max-width: 450px) {
+  /* New bit */
+  #landing {
+    height: 70vh;
+  }
+
+  #landing-sub {
+    height: 20vh;
+  }
+
+  #first-section {
+    height: 90vh;
+  }
+
+  #second-section {
+    height: 90vh;
+  }
+  /* New bit end */
+
   .landing-large {
     font-size: 50px;
   }
@@ -334,7 +352,8 @@ a {
   }
 
   .second-top {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    margin-bottom: 7vh;
   }
 
   .second-left,
@@ -346,7 +365,8 @@ a {
   }
 
   .second-left img {
-    height: 100px;
+    /* height: 100px; */
+    height: 75px;
     width: auto;
     margin-bottom: 30px;
   }
@@ -359,12 +379,11 @@ a {
 
   .second-left-number {
     font-size: 25px;
-    margin-bottom: 50px;
     /* width: 100%; */
     width: fit-content;
     margin: auto;
-    margin-bottom: 50px;
-    /* margin: initial auto initial auto; */
+    margin-bottom: 7vh;
+    /* margin-bottom: 50px; */
   }
 
   .second-right-address {
@@ -372,13 +391,22 @@ a {
   }
 
   .second-right img {
-    height: 100px;
+    /* height: 100px; */
+    height: 75px;
     width: auto;
     margin-bottom: 15px;
   }
 }
 
 @media (max-height: 450px) {
+  #landing {
+    height: 70vh;
+  }
+
+  #landing-sub {
+    height: 20vh;
+  }
+
   .landing-large {
     font-size: 50px;
     margin-bottom: 30px;
@@ -433,7 +461,8 @@ a {
   }
 
   .second-left img {
-    height: 100px;
+    /* height: 100px; */
+    height: 50px;
     width: auto;
     margin-bottom: 15px;
   }
@@ -445,7 +474,8 @@ a {
   }
 
   .second-left-number {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 20px;
     margin-bottom: 50px;
     /* width: 100%; */
     width: fit-content;
@@ -456,8 +486,48 @@ a {
   }
 
   .second-right img {
-    height: 100px;
+    /* height: 100px; */
+    height: 50px;
     width: auto;
     margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 330px) {
+  @media (max-height: 590px) {
+    .central-title-text {
+      font-size: 19px;
+    }
+
+    .btn {
+      font-size: 19px;
+    }
+
+    .second-right img,
+    .second-left img {
+      height: 50px;
+      margin-bottom: 3vh;
+    }
+
+    .second-top,
+    .second-left-number {
+      margin-bottom: 7vh;
+    }
+
+    .second-left-title,
+    .second-right-title,
+    .second-left-number,
+    .second-right-address {
+      font-size: 19px;
+    }
+  }
+}
+
+@media (max-height: 330px) {
+  .second-left-title,
+  .second-right-title,
+  .second-left-number,
+  .second-right-address {
+    font-size: 17px;
   }
 }
