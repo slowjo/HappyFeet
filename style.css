@@ -420,6 +420,10 @@ a {
     font-size: 20px;
   }
 
+  .landing-cta-btn {
+    font-size: 15px;
+  }
+
   #first-section {
     height: 150vh;
   }
