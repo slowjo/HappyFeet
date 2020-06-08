@@ -301,18 +301,22 @@ a {
   /* New bit */
   #landing {
     height: 70vh;
+    height: calc(var(--vh, 1vh) * 75);
   }
 
   #landing-sub {
     height: 20vh;
+    height: calc(var(--vh, 1vh) * 25);
   }
 
   #first-section {
     height: 90vh;
+    height: calc(var(--vh, 1vh) * 100);
   }
 
   #second-section {
     height: 90vh;
+    height: calc(var(--vh, 1vh) * 100);
   }
   /* New bit end */
 
@@ -401,10 +405,12 @@ a {
 @media (max-height: 450px) {
   #landing {
     height: 70vh;
+    height: calc(var(--vh, 1vh) * 75);
   }
 
   #landing-sub {
     height: 20vh;
+    height: calc(var(--vh, 1vh) * 25);
   }
 
   .landing-large {
